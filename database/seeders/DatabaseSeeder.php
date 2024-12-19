@@ -19,5 +19,16 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        Specialist::create([
+            'name' => 'Dokter Umum',
+        ]);
+
+        Specialist::create([
+            'name' => 'Dokter Gigi',
+        ]);
+        Specialist::create([
+            'name' => 'Dokter Kandungan',
+        ]);
     }
 }
